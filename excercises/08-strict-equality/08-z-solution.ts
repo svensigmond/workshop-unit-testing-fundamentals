@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
-import { getPizza } from './07-strict-equality';
+import { getPizza } from './08-strict-equality';
 
-describe('strict-equality', () => {
+describe('Strict equality', () => {
 	describe('getPizza', () => {
 		test('should return the expected object for type "Margherita"', () => {
 			const pizzaType = 'Margherita';

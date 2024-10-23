@@ -1,7 +1,7 @@
 import { describe, test, expect } from 'vitest';
 import { add, subtract, multiply, divide } from './03-multiple-test-cases';
 
-describe('Structuring tests', () => {
+describe('Multiple tests cases', () => {
 	describe('add', () => {
 		const INPUT_VALUES = [
 			{ x: 1, y: 2, expected: 3 },

@@ -1,4 +1,4 @@
-import { type Person, type Persons, SortDirection, SortBy } from './08-types';
+import { type Person, type Persons, SortDirection, SortBy } from './09-types';
 
 /* 
 	Based on the function parameters the task is as follows:

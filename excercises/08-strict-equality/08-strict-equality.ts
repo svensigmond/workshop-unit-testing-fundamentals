@@ -1,4 +1,4 @@
-import { type Pizza, Pizzas, AvailablePizzas } from './07-types';
+import { type Pizza, Pizzas, AvailablePizzas } from './08-types';
 
 const pizzas: Pizzas = [
 	{

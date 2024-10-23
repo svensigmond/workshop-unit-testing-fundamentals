@@ -1,7 +1,7 @@
 /*************************************************************************************/
-/* 08-test-driven-development.ts
+/* 09-test-driven-development.ts
 /*************************************************************************************/
-import { type Person, type Persons, SortDirection, SortBy } from './08-types';
+import { type Person, type Persons, SortDirection, SortBy } from './09-types';
 
 export const getAvarageAge = (persons: Persons): number =>
 	persons.map((person) => person.age).reduce((acc, age) => acc + age, 0) /
@@ -26,13 +26,13 @@ export const sortByName = (
 };
 
 /*************************************************************************************/
-/* 08-test-driven-development.test.ts
+/* 09-test-driven-development.test.ts
 /*************************************************************************************/
 import { describe, expect, test } from 'vitest';
-import { type Persons, SortDirection, SortBy } from './08-types';
-import { sortByName, getAvarageAge } from './08-test-driven-development';
+import { type Persons, SortDirection, SortBy } from './09-types';
+import { sortByName, getAvarageAge } from './09-the-holy-grail';
 
-describe('test-driven-development', () => {
+describe('The holy grail', () => {
 	const DATA: Persons = [
 		{
 			firstName: 'Sven',

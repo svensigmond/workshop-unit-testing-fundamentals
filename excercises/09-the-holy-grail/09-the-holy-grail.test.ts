@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'vitest';
-import { type Persons } from './08-types';
-import { sortByName, getAvarageAge } from './08-test-driven-development';
+import { type Persons } from './09-types';
+import { sortByName, getAvarageAge } from './09-the-holy-grail';
 
 describe('test-driven-development', () => {
 	const DATA: Persons = [

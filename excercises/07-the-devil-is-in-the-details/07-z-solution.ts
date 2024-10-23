@@ -1,5 +1,5 @@
 import { isBefore } from 'date-fns';
-import { type Standings } from './06-types';
+import { type Standings } from './07-types';
 
 /**
  * Checks if the given date is before July 1st of the same year
@@ -9,7 +9,7 @@ import { type Standings } from './06-types';
  */
 export const isDateBeforeJulyFirst = (date: Date): boolean => {
 	const YEAR = date.getFullYear();
-	const JULY_FIRST = new Date(YEAR, 7, 1);
+	const JULY_FIRST = new Date(YEAR, 6, 1);
 
 	return isBefore(date, JULY_FIRST);
 };
@@ -41,7 +41,7 @@ export const getStandingsSubSet = (
 	}
 
 	// If "feyenoord" is within the last half of the subset, the subset ends at the end of the array.
-	if (feyenoordIndex > standings.length - halfOfLimit) {
+	if (feyenoordIndex >= standings.length - halfOfLimit) {
 		return standings.slice(standings.length - limit);
 	}
 

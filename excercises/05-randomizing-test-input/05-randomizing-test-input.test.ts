@@ -1,5 +1,5 @@
 import { describe, test, expect } from 'vitest';
-import { add } from './04-randomizing-test-input';
+import { add } from './05-randomizing-test-input';
 /* 
 	Commented to prevent spoiling earlier exercises in test suite output
 	--------------------------------------------------------------------------
