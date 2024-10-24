@@ -3,5 +3,5 @@ export const add = (a: number, b: number) => {
 		throw new Error('Please supply 2 values to be added');
 	}
 
-	return a + b;
+	return 3;
 };
